@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Da Enzo — Contact</title>
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Josefin+Sans:wght@200;300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="nav scrolled" id="nav"><div class="nav-inner"><a href="accueil.html" class="nav-logo"><svg viewBox="0 0 100 44" xmlns="http://www.w3.org/2000/svg"><text x="0" y="18" font-family="'Playfair Display',serif" font-size="16" font-weight="400" fill="#c9a84c">Da</text><text x="0" y="40" font-family="'Playfair Display',serif" font-size="22" font-weight="400" fill="#c9a84c">Enzo</text></svg></a><button class="nav-burger" aria-label="Menu"><span></span><span></span><span></span></button><ul class="nav-links"><li><a href="accueil.html">Accueil</a></li><li><a href="carte.html">La Carte</a></li><li><a href="galerie.html">Galerie</a></li><li><a href="apropos.html">Notre Histoire</a></li><li><a href="contact.html" class="active">Contact</a></li></ul><a href="#reservation" class="nav-cta">Réserver</a></div></nav>
+
+    <header class="page-header"><div class="page-header-bg bg-contact"></div><div class="container"><span class="label anim-up">Contatto</span><h1 class="anim-up" style="animation-delay:.15s">Contact</h1><p class="anim-up" style="animation-delay:.3s">Venez nous rendre visite à Cogolin</p></div></header>
+
+    <section class="section s-contact">
+        <div class="container">
+            <div class="contact-grid">
+                <div>
+                    <div class="info-block reveal"><span class="ico">📍</span><div><h4>Adresse</h4><p>12 Rue de la République<br>83310 Cogolin<br>Golfe de Saint-Tropez</p></div></div>
+                    <div class="info-block reveal"><span class="ico">📞</span><div><h4>Téléphone</h4><p><a href="tel:+33494123456">04 94 12 34 56</a></p></div></div>
+                    <div class="info-block reveal"><span class="ico">✉️</span><div><h4>Email</h4><p><a href="mailto:contact@daenzo.fr">contact@daenzo.fr</a></p></div></div>
+                    <div class="info-block reveal"><span class="ico">🕐</span><div><h4>Horaires</h4><p>Mar — Sam : 12h–14h30 · 19h–22h30<br>Dimanche : 12h–15h · Lundi : Fermé</p></div></div>
+                </div>
+                <div class="contact-map reveal">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2906.5!2d6.532!3d43.425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sCogolin%2C+France!5e0!3m2!1sfr!2sfr" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section s-resa" id="reservation">
+        <div class="container">
+            <div class="section-header"><span class="label">Prenotazione</span><h2 class="section-title">Réserver une Table</h2><div class="sep center"></div><p class="form-intro">Remplissez le formulaire ou appelez-nous au <a href="tel:+33494123456">04 94 12 34 56</a></p></div>
+            <div class="form-wrap">
+                <div id="resaForm">
+                    <div class="form-row"><div class="form-group"><label for="nom">Nom *</label><input type="text" id="nom" placeholder="Votre nom" required></div><div class="form-group"><label for="email">Email *</label><input type="email" id="email" placeholder="votre@email.fr" required></div></div>
+                    <div class="form-row"><div class="form-group"><label for="telephone">Téléphone *</label><input type="tel" id="telephone" placeholder="06 12 34 56 78" required></div><div class="form-group"><label for="convives">Convives</label><select id="convives"><option value="1">1 personne</option><option value="2" selected>2 personnes</option><option value="3">3 personnes</option><option value="4">4 personnes</option><option value="5">5 personnes</option><option value="6">6 personnes</option><option value="8+">8+ personnes</option></select></div></div>
+                    <div class="form-row"><div class="form-group"><label for="date">Date *</label><input type="date" id="date" required></div><div class="form-group"><label for="heure">Heure</label><select id="heure"><option>12h00</option><option>12h30</option><option>13h00</option><option>19h00</option><option selected>19h30</option><option>20h00</option><option>20h30</option><option>21h00</option><option>21h30</option></select></div></div>
+                    <div class="form-group full"><label for="message">Message (optionnel)</label><textarea id="message" placeholder="Allergies, occasions spéciales…"></textarea></div>
+                    <button type="button" class="btn btn-gold form-submit" id="submitBtn">Envoyer la demande</button>
+                </div>
+                <div class="form-success" id="resaSuccess"><div class="check">✓</div><h3>Demande envoyée !</h3><p>Nous vous confirmerons par email ou téléphone dans les plus brefs délais.</p><p class="note">Ceci est un site fictif — aucune réservation réelle n'a été effectuée.</p></div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer"><div class="container"><div class="footer-grid"><div class="footer-brand"><svg viewBox="0 0 100 44" width="80" xmlns="http://www.w3.org/2000/svg"><text x="0" y="18" font-family="'Playfair Display',serif" font-size="16" font-weight="400" fill="#c9a84c">Da</text><text x="0" y="40" font-family="'Playfair Display',serif" font-size="22" font-weight="400" fill="#c9a84c">Enzo</text></svg><p>Ristorante Italiano depuis 2008</p></div><div><h4>Navigation</h4><a href="accueil.html">Accueil</a><a href="carte.html">La Carte</a><a href="galerie.html">Galerie</a><a href="apropos.html">Notre Histoire</a><a href="contact.html">Contact</a></div><div><h4>Contact</h4><p>12 Rue de la République</p><p>83310 Cogolin</p><p>04 94 12 34 56</p></div><div><h4>Suivez-nous</h4><a href="#">Instagram</a><a href="#">Facebook</a><a href="#">TripAdvisor</a></div></div><div class="footer-bottom"><p>© 2024 Da Enzo — Tous droits réservés · Site fictif · <a href="mentions.html">Mentions légales</a> · <a href="confidentialite.html">Confidentialité</a></p></div></div></footer>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

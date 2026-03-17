@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Da Enzo — Galerie</title>
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Josefin+Sans:wght@200;300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="nav scrolled" id="nav"><div class="nav-inner"><a href="accueil.html" class="nav-logo"><svg viewBox="0 0 100 44" xmlns="http://www.w3.org/2000/svg"><text x="0" y="18" font-family="'Playfair Display',serif" font-size="16" font-weight="400" fill="#c9a84c">Da</text><text x="0" y="40" font-family="'Playfair Display',serif" font-size="22" font-weight="400" fill="#c9a84c">Enzo</text></svg></a><button class="nav-burger" aria-label="Menu"><span></span><span></span><span></span></button><ul class="nav-links"><li><a href="accueil.html">Accueil</a></li><li><a href="carte.html">La Carte</a></li><li><a href="galerie.html" class="active">Galerie</a></li><li><a href="apropos.html">Notre Histoire</a></li><li><a href="contact.html">Contact</a></li></ul><a href="contact.html#reservation" class="nav-cta">Réserver</a></div></nav>
+
+    <header class="page-header"><div class="page-header-bg bg-galerie"></div><div class="container"><span class="label anim-up">Galleria</span><h1 class="anim-up" style="animation-delay:.15s">Galerie</h1><p class="anim-up" style="animation-delay:.3s">Les couleurs et saveurs de Da Enzo</p></div></header>
+
+    <section class="section s-galerie">
+        <div class="container">
+            <div class="gal-filters" data-filter-group=".gal-item">
+                <button class="filter-btn active" data-filter="all">Tout</button>
+                <button class="filter-btn" data-filter="plats">Nos Plats</button>
+                <button class="filter-btn" data-filter="restaurant">Le Restaurant</button>
+                <button class="filter-btn" data-filter="ambiance">Ambiance</button>
+            </div>
+            <div class="gal-grid">
+                <div class="gal-item wide" data-tag="plats"><img src="https://images.unsplash.com/photo-1612874742237-6526221588e3?w=800&q=80" alt="Carbonara" loading="lazy"><div class="gal-overlay"><small>Plats</small><h3>Carbonara Maison</h3></div></div>
+                <div class="gal-item" data-tag="restaurant"><img src="https://images.unsplash.com/photo-1559329007-40df8a9345d8?w=600&q=80" alt="Salle élégante" loading="lazy"><div class="gal-overlay"><small>Restaurant</small><h3>La Salle</h3></div></div>
+                <div class="gal-item" data-tag="plats"><img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=600&q=80" alt="Pizza au four" loading="lazy"><div class="gal-overlay"><small>Plats</small><h3>Pizza al Forno</h3></div></div>
+                <div class="gal-item tall" data-tag="ambiance"><img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600&q=80" alt="Ambiance dîner" loading="lazy"><div class="gal-overlay"><small>Ambiance</small><h3>Soirée à la Chandelle</h3></div></div>
+                <div class="gal-item" data-tag="plats"><img src="https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=600&q=80" alt="Tiramisu" loading="lazy"><div class="gal-overlay"><small>Plats</small><h3>Tiramisù della Nonna</h3></div></div>
+                <div class="gal-item" data-tag="restaurant"><img src="https://images.unsplash.com/photo-1543007630-9710e4a00a20?w=600&q=80" alt="Cave à vins" loading="lazy"><div class="gal-overlay"><small>Restaurant</small><h3>Notre Bar</h3></div></div>
+                <div class="gal-item wide" data-tag="ambiance"><img src="https://images.unsplash.com/photo-1590947132387-155cc02f3212?w=800&q=80" alt="Focaccia et huile d'olive" loading="lazy"><div class="gal-overlay"><small>Ambiance</small><h3>L'Art de la Table</h3></div></div>
+                <div class="gal-item" data-tag="plats"><img src="https://images.unsplash.com/photo-1608897013039-887f21d8c804?w=600&q=80" alt="Burrata" loading="lazy"><div class="gal-overlay"><small>Plats</small><h3>Burrata Pugliese</h3></div></div>
+                <div class="gal-item" data-tag="ambiance"><img src="https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=600&q=80" alt="Verres de vin" loading="lazy"><div class="gal-overlay"><small>Ambiance</small><h3>Vini della Casa</h3></div></div>
+                <div class="gal-item" data-tag="plats"><img src="https://images.unsplash.com/photo-1476124369491-e7addf5db371?w=600&q=80" alt="Risotto" loading="lazy"><div class="gal-overlay"><small>Plats</small><h3>Risotto ai Funghi</h3></div></div>
+                <div class="gal-item" data-tag="plats"><img src="https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=600&q=80" alt="Pâtes fraîches" loading="lazy"><div class="gal-overlay"><small>Plats</small><h3>Pasta Fresca</h3></div></div>
+                <div class="gal-item" data-tag="restaurant"><img src="https://images.unsplash.com/photo-1552566626-52f8b828add9?w=600&q=80" alt="Intérieur" loading="lazy"><div class="gal-overlay"><small>Restaurant</small><h3>L'Intérieur</h3></div></div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer"><div class="container"><div class="footer-grid"><div class="footer-brand"><svg viewBox="0 0 100 44" width="80" xmlns="http://www.w3.org/2000/svg"><text x="0" y="18" font-family="'Playfair Display',serif" font-size="16" font-weight="400" fill="#c9a84c">Da</text><text x="0" y="40" font-family="'Playfair Display',serif" font-size="22" font-weight="400" fill="#c9a84c">Enzo</text></svg><p>Ristorante Italiano depuis 2008</p></div><div><h4>Navigation</h4><a href="accueil.html">Accueil</a><a href="carte.html">La Carte</a><a href="galerie.html">Galerie</a><a href="apropos.html">Notre Histoire</a><a href="contact.html">Contact</a></div><div><h4>Contact</h4><p>12 Rue de la République</p><p>83310 Cogolin</p><p>04 94 12 34 56</p></div><div><h4>Suivez-nous</h4><a href="#">Instagram</a><a href="#">Facebook</a><a href="#">TripAdvisor</a></div></div><div class="footer-bottom"><p>© 2024 Da Enzo — Tous droits réservés · Site fictif · <a href="mentions.html">Mentions légales</a> · <a href="confidentialite.html">Confidentialité</a></p></div></div></footer>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
