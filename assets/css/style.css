@@ -583,7 +583,8 @@ img { max-width: 100%; display: block; }
     .gal-item.wide { grid-column: span 2; }
     .gal-item.tall { grid-row: span 1; aspect-ratio: 1; }
     .form-row { grid-template-columns: 1fr; gap: 1rem; }
-    .footer-grid { grid-template-columns: 1fr; }
+    .footer-grid { grid-template-columns: 1fr; text-align: center; }
+    .footer-brand { display: flex; flex-direction: column; align-items: center; }
     .hero-btns { flex-direction: column; align-items: center; }
     .hour-row { flex-direction: column; gap: .2rem; }
     .deco-lines .deco-line-1, .deco-lines .deco-line-2 { top: 20px; left: 20px; }
